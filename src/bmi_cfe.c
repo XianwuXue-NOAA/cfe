@@ -2031,7 +2031,7 @@ static int Set_value_at_indices (Bmi *self, const char *name, int * inds, int le
     return BMI_SUCCESS;
 }
 
-
+// TMP JG TEST PUSH
 static int Set_value (Bmi *self, const char *name, void *array)
 {
     // Avoid using set value, call instead set_value_at_index
